@@ -1,0 +1,2292 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+font-family: 'Montserrat-Medium', sans-serif;
+font-family: 'Galada', cursive;
+}
+
+body {
+	font-family: 'Montserrat-Medium', sans-serif;
+}
+
+/*the whole landing page*/
+.landingpage{
+	height: 85vh;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(image/citybyocean.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	background-color: rgba(1,1,1,0.4);
+	background-blend-mode: color-burn;
+	position: relative;
+}
+
+/*the navigation bar*/
+.navbar {
+    width: 100%;
+	background-color: #121721;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+} 
+
+.navlogo {
+	height: 100%;
+}
+
+.navlogo img {
+	height: 100%;
+	width: 70px;
+}
+
+.navlinks {
+	width: 85%;
+}
+
+.navlinks ul {
+	height: 100%;
+}
+
+.navlinks ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 18%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.6em;
+	text-transform: uppercase;
+}
+
+.navlinks ul #offers {
+	display: none;
+}
+
+.navlinks ul li a {
+	text-decoration: none;
+	color: #fff;
+	height: 100%;
+	line-height: 50px;
+}
+
+
+.navlinks button {
+	float: right;
+	position: relative;
+	width: 53px;
+	height: 25px;
+	border: 1px solid #fff;
+	font-size: 0.7em;
+	top: -35px;
+	margin-right: 10px;
+}
+
+
+/*text on background*/
+#backgroundtext {
+	width: 80%;
+	position: relative;
+	top: 20%;
+	left: 15%;
+	right: 10%;
+}
+
+#backgroundtextcontent1 {
+	text-transform: uppercase;
+	color: #F48A56;
+	font-family: 'Galada', cursive; 
+	font-size: 1.2em;
+	word-spacing: 2px; 
+	margin-bottom: 15px;
+}
+
+#backgroundtextcontent2 {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	height: 30px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	font-size: 0.8em;
+}
+
+#backgroundtextcontent2 p {
+	font-family: 'Galada', cursive;
+	font-size: 1.4em;
+	color: #fff;
+}
+
+#backgroundtextcontent3 {
+	margin-top: 15px;
+}
+
+#backgroundtextcontent3 p {
+	line-height: 22px;                          
+	color: #fff;
+	font-family: 'Galada', cursive; 
+	font-size: 1.1em;
+	word-spacing: 1px; 
+}
+
+#learnmore {
+	position: relative;
+	top: 10px;
+	height: 37px;
+	width: 35%;
+	border: 1px solid #fff;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+#learnmore a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-family: ;
+	font-size: 1.2em;
+}
+
+/*holiday plan form to fill*/
+#interactivesession {
+	margin: 0px 20px;
+	border: 1px solid #ccc;
+	height: 400px;
+	padding-bottom: 20px;
+}
+
+#bestholiday {
+	position: relative;
+	top: 30px;
+	left: 15px;
+
+}
+
+#bestholiday p {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.2em;
+	word-spacing: 0.3em;
+	margin-bottom: 15px;
+}
+
+#bestholiday small span {
+	font-weight: bolder;
+}
+
+#interactivesession  #form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+#interactivesession  #form input {
+	margin: 15px 0px -10px 15px;
+	width: 80%;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+
+#interactivesession  #form #date {
+	margin: 15px 0px -10px 15px;
+	width: 79%;
+	height: 35px;
+	border: 1px solid #ccc;
+	background-color: #FAFAFA;
+	padding-left: 10px;
+	color: #757575;
+}
+
+#submitformbutton {
+	position: relative;
+	top: 15px;
+	left: 17px;
+	width: 80%;
+	height: 35px;
+	border: 1px solid #ff0000;
+	background-color: #ff0000;
+	opacity: 0.9;
+	color: #fff;
+	font-family: ;
+	font-weight: bold;
+}
+
+#interactivesession .moreenquiries {
+	margin: 19px 0px 0px 15px;
+	line-height: 1.5em;
+}
+
+
+/*popular destinations*/
+#populardestination {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 40px;
+	height: 110px;
+}
+
+#populardestination h2 {
+	margin-bottom: 0.5em;
+}
+
+#populardestination p {
+	line-height: 1.5em;
+}
+
+#destinationimages {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#destination1, #destination2, #destination3, #destination4, #destination5, #destination6 {
+	height: 250px;
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+#destination1 img, #destination2 img, #destination3 img, #destination4 img, #destination5 img, #destination6 img {
+	width: 100%;
+	height: 100%;
+}
+
+#destination1 p, #destination2 p, #destination3 p, #destination4 p, #destination5 p, #destination6 p {
+	font-family: ;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+
+/*book a tour from home session*/
+.buytour {
+	background-image: url(image/california.jpg);
+	background-repeat: no-repeat;
+	background-color: rgba(1,1,1,0.6);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	height: 280px;
+	width: 100%;
+}
+
+#buytourtext {
+	/*border: 2px solid black;*/
+	position: relative;
+	top: 15%;
+	width: 80%;
+	height: 80%;
+	margin: 0px auto;
+}
+
+#buytourtext h2 {
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+	position: relative;
+	top: 6%;
+}
+
+#buytourtext p {
+	position: relative;
+	top: 11%;
+	color: #fff;
+	margin: 0px 15px;
+	text-align: justify;
+	line-height: 1.3em;
+	word-spacing: 4px;
+	font-size: 1em;
+}
+
+#buytourtext #booknow {
+	position: relative;
+	left: 30%;
+	top: 40px;
+	width: 35%;
+	height: 35px;
+	border: 1px solid #ff0000;
+	background-color: #ff0000;
+	opacity: 0.9;
+	color: #fff;
+	font-family: ;
+	font-weight: bold;
+}
+
+
+
+/*explore the world session*/
+.explore {
+	/*border: 4px  black solid;*/
+	padding: 20px;
+	height: 650px;
+}
+
+.explore img {
+	height: 300px;
+	width: 100%;
+}
+
+.explore #exploretext {
+	position: relative;
+	top: 25px;
+}
+
+.explore #exploretext h2 {
+	line-height: 1.3em;
+	text-transform: capitalize;
+}
+
+.explore #exploretext p {
+	position: relative;
+	word-spacing: 0.5em;
+	line-height: 1.3em;
+	top: 20px;
+}
+
+.explore #exploretext p span {
+	font-size: 1.1em;
+}
+
+.explore #explorebuttons {
+	position: relative;
+	top: 60px;
+}
+
+.explore #explorebuttons a {
+	text-decoration: none;
+}
+
+.explore #explorebuttons #explorebutton1 {
+	height: 40px;
+	width: 35%;
+	border: 1px solid #ff0000;
+	background-color: #ff0000;
+	opacity: 0.9;
+}
+
+.explore #explorebuttons #explorebutton1 a {
+	color: #fff;
+	font-weight: bold;
+	font-family: ;
+	font-size: 1.2em;
+}
+
+.explore #explorebuttons #explorebutton2 {
+	height: 40px;
+	width: 35%;
+	background-color: #fff;
+}
+
+.explore #explorebuttons #explorebutton2 a {
+	color: #000;
+	font-weight: bold;
+	font-family: ;
+	font-size: 1.2em;
+	margin: 25px;
+}
+
+
+/*readmore*/
+#readmore {
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 750px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #FAFAFA;
+}
+
+#readmore .readmore1, #readmore .readmore2, #readmore .readmore3 {
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 250px;
+}
+
+#readmore .readmore1 #div1, #readmore .readmore2 #div2, #readmore .readmore3 #div3 {
+	border: 1px solid black;
+	border-radius: 45%;
+	height: 22%;
+	width: 15%;
+	position: relative;
+	top: 13%;
+	left: 13%;
+}
+
+#readmore .readmore1 #div1 img, #readmore .readmore2 #div2 img, #readmore .readmore3 #div3 img {
+	margin: 25%;
+}
+
+#readmore #text1,#readmore #text2,#readmore #text3 {
+	position: relative;
+	top: 20%;
+	margin: 15px;
+	font-family: ;
+	height: 110px;
+	width: 90%; 
+}
+
+#readmore #text1 h2,#readmore #text2 h2,#readmore #text3 h2 {
+	font-weight: bold;
+}
+
+#readmore #text1 p,#readmore #text2 p,#readmore #text3 p {
+	position: relative;
+	top: 5%;
+	line-height: 1.2em;
+	height: 50px;
+}
+
+#readmore #text1 a,#readmore #text2 a,#readmore #text3 a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+/*airlines*/
+#airlines {
+	width: 100%;
+	height: 350px;
+	background-color: #031427;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: center;
+	line-height: 35px;
+	padding: 30px 0px;
+	margin-bottom: 50px;
+}
+
+#airlines span .big {
+	font-size: 2.5em;
+	position: relative;
+	left: 10%;
+}
+
+#airlines span .big1 {
+	position: relative;
+	left: 20%;
+	font-size: 2.5em;
+}
+
+#airlines hr {
+	width: 50%;
+}
+
+#airlines span .small {
+	position: relative;
+	left: 20%;
+}
+
+#airlines span .small1 {
+	position: relative;                   
+	left: 5%;
+}
+
+/*tourgallery*/
+.tourgallery {
+	width: 100%;
+	height: 2300px;
+	/*border: 1px solid red;*/
+}
+
+.tourgallery h3 {
+	/*border: 1px solid red;*/
+	position: relative;
+	text-align: center;
+	top: 0%;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.tourgallery #div1, .tourgallery #div2, .tourgallery #div3, .tourgallery #div4, .tourgallery #div5, .tourgallery #div6 {
+/*	border: 1px solid blue;*/
+	position: relative;
+	top: 8%;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 20px;
+}
+
+.tourgallery #div1 img, .tourgallery #div2 img, .tourgallery #div3 img, .tourgallery #div4 img, .tourgallery #div5 img, .tourgallery #div6 img {
+	width: 100%;
+	height: 90%;
+}
+
+.tourgallery p {
+	height: 30px;
+	background-color: orange;
+	text-align: center;
+	letter-spacing: 4px;
+	margin-top: -4px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+
+/*team members*/
+#team {
+	height: 1500px;
+	width: 99%;
+}
+
+#team p {
+	position: relative;
+	top: 1%;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#team div {
+	width: 95%;
+	height: 93%;
+	margin: 0px auto;
+	position: relative;
+	top: 1%;
+	display: flex;
+	flex-direction: column;
+}
+
+#team div .client1, #team div .client2, #team div .client3 {
+	height: 450px;
+	margin-bottom: 15px;
+}
+
+#team div .client1 img, #team div .client2 img, #team div .client3 img {
+	height: 90%;
+}
+
+#team div .client1 #teamname, #team div .client2 #teamname, #team div .client3 #teamname {
+	font-size: 1.3em;
+	width: 100%;
+	height: 6%;
+	background-color: #031427;
+	color: #fff;
+	top: -10px;
+	position: relative;
+	padding-top: 6px;
+}
+
+#team div .client1 #position, #team div .client2 #position, #team div .client3 #position {
+	font-size: 1.0em;
+	font-weight: normal;
+	width: 100%;
+	height: 4%;
+	background-color: #031427;
+	color: #fff;
+	position: relative;
+
+	top: -11px;
+}
+
+
+
+/*tour prices*/
+.tourprices {
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 485px;
+	margin-bottom: 30px;
+}
+
+.tourprices h3 {
+	/*border: 1px solid red;*/
+	position: relative;
+	text-align: center;
+	top: 2%;
+	padding: 5px;
+	font-size: 1.6em;
+}
+
+.tourprices .prices {
+	position: relative;
+	top: 15px;
+	height: 95%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.prices #div1, .prices #div2, .prices #div3, .prices #div4 {
+/*	border: 1px solid red;*/
+	width: 49%;
+	height: 200px;
+}
+
+.prices #div1 h5, .prices #div2 h5, .prices #div3 h5, .prices #div4 h5 {
+	margin: 9px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+.prices #div1 div {
+	width: 80%;
+	height: 160px;
+	margin: 0px 10%;
+	background-image: url(image/china.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prices #div2 div {
+	width: 80%;
+	height: 160px;
+	margin: 0px 10%;
+	background-image: url(image/iceland.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prices #div3 div {
+	width: 80%;
+	height: 160px;
+	margin: 0px 10%;
+	background-image: url(image/francesco.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prices #div4 div {
+	width: 80%;
+	height: 160px;
+	margin: 0px 10%;
+	background-image: url(image/gaurav.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prices #div1 div p, .prices #div2 div p, .prices #div3 div p, .prices #div4 div p {
+	background-color: orange;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: #fff;
+	width: 40%;
+	float: right;
+}
+
+/*footer*/
+#footer {
+	height: 1000px;
+	background-color: #031427;
+	color: #ffffff;
+	width: 100%;
+}
+
+#footer #div1 {
+	height: 150px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div2 {
+	height: 180px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div3 {
+	height: 120px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div4 {
+	height: 150px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div4 input {
+	width: 80%;
+	height: 35px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+#footer #div5 {
+	height: 150px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div5 #adress a {
+	line-height: 8px;
+}
+
+#footer #div6 {
+	height: 100px;
+	width: 95%;
+	/*border: 1px solid green;*/
+	padding: 25px 0px 0px 15px;
+}
+
+#footer #div6 {
+	line-height: 1.5em;
+}
+
+
+#footer #div1 ul, #footer #div2 ul, #footer #div3 ul, #footer #div4 ul, #footer #div5 ul, #footer #div6 ul{
+	list-style-type: none;
+}
+
+#footer #div1 a, #footer #div2 a, #footer #div3 a, #footer #div4 a, #footer #div5 a,  #footer #div6 a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 1.7em;
+}
+
+#footer #div1 #boldlist, #footer #div2 #boldlist, #footer #div3 #boldlist, #footer #div4 #boldlist, #footer #div5 #boldlist {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#footer #div6 #boldlist6 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 1.4em;
+}
+
+
+
+
+
+
+
+/*===media queries===*/
+
+/*===media query for tabs===*/
+@media only screen and (min-width: 768px) {
+
+	body {
+		width: 100%;
+	}
+
+	.landingpage {
+		height: 95vh;
+		background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(image/citybyocean.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow-x: hidden;
+		position: relative;
+	}
+
+
+	/*the navigation bar and it's content*/
+	.navbar {
+	    width: 80%;
+		background-color: #141A30;
+		height: 60px;
+		margin: 30px 100px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	} 
+
+	.navlogo {
+		height: 100%;
+		line-height: 60px;
+		margin: -20px;
+	}
+
+	.navlogo img {
+		height: 110px;
+		width: 120px;
+	}
+
+	.navlinks {
+		flex: 1;
+	}
+
+	.navlinks ul {
+		display: inline;
+		position: relative;
+		left: 20px;
+	}
+
+	.navlinks ul #offers {
+		display: none;
+	}
+
+	.navlinks ul li {
+		display: inline-block;
+		width: auto;
+		margin: 0px 13px;
+	} 
+
+	.navlinks ul li a {
+		font-size: 1.7em;
+	}
+
+	.navlinks ul li::after {
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: rgba(248, 90, 1, 0.9);
+		display: block; 
+		position: relative;
+		top: -10px;
+		transition: .5s;
+		margin: auto;
+	}	
+
+	.navlinks ul li:hover::after {
+		width: 100%;
+	}
+	.button:hover {
+		background-color: rgba(248, 90, 1, 0.9); 
+		color: #000;
+	}
+
+
+
+
+	.navlinks .button {
+		/*margin: 7px 0px;*/
+		/*padding: 8px 16px;*/
+		width: 100px;
+		background-color: #141A30; 
+		border: 0px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 1.2em;
+		position: relative;
+		top: 5px;
+	}
+
+	.button:hover {
+		background-color: rgba(248, 90, 1, 0.9); 
+		color: #000;
+	}
+
+	.navlinks .button {
+		float: right;
+		margin: 10px;
+	} 
+
+	/*the contents on the background*/
+	#backgroundtext {
+		width: 80%;
+		position: relative;
+		top: 15%;
+		left: 15%;
+		right: 10%;
+	}
+
+	#backgroundtextcontent1 {
+		text-transform: uppercase;
+		color: #F48A56;
+		font-family: 'Galada', cursive; 
+		font-size: 3em;
+		word-spacing: 6px; 
+		opacity: 0.8;
+	}
+
+	#backgroundtextcontent2 {
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		height: 100px;
+		width: 65%;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		top: 10px;
+	}
+
+	#backgroundtextcontent2 p {
+		font-family: 'Galada', cursive;
+		font-size: 3.5em;
+		color: #fff;
+		position: relative;
+		top: 15px;
+	}
+
+	#backgroundtextcontent3 {
+		margin-top: 30px;
+		position: relative;
+		top: 10px;
+		line-height: 5px;
+		font-size: 0.9em;
+	}
+
+	#backgroundtextcontent3 p {
+		line-height: 35px;                          
+		color: #F48A56;
+		font-family: 'Galada', cursive; 
+		font-size: 2em;
+		word-spacing: 3px; 
+		opacity: 0.7;
+	}
+
+	#learnmore {
+	position: relative;
+	top: 20px;
+	height: 60px;
+	width: 35%;
+	border: 1px solid #fff;
+	background-color: #fff;
+	opacity: 0.9;
+	margin-top: 10px;
+	font-size: 1.4em;
+	}
+
+	#learnmore a {
+		text-decoration: none;
+		color: #000;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.2em;
+	}
+
+
+	/*holiday plan form to fill*/
+	#interactivesession {
+		margin: 0px 20px;
+		border: 1px solid #ccc;
+		height: 480px;
+		padding-bottom: 20px;
+	}
+
+	#bestholiday {
+		position: relative;
+		top: 30px;
+		left: 15px;
+	}
+
+	#bestholiday p {
+		font-size: 1.6em;
+		font-weight: bold;
+		line-height: 1.5em;
+		word-spacing: 0.3em;
+		margin-bottom: 15px;
+	}
+
+	#bestholiday small {
+		font-size: 1.5em;
+	}
+
+	#bestholiday small span {
+		font-weight: bolder;
+	}
+
+	#interactivesession  #form {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	#interactivesession  #form input {
+		margin: 15px 0px -10px 15px;
+		width: 89%;
+		height: 45px;
+		border: 1px solid #ccc;
+		font-size: 1.5em;
+	}
+
+	#interactivesession  #form #date {
+		margin: 15px 0px -10px 15px;
+		width: 88%;
+		height: 45px;
+		border: 1px solid #ccc;
+		background-color: #FAFAFA;
+		padding-left: 10px;
+		color: #757575;
+	}
+
+	#submitformbutton {
+		position: relative;
+		top: 15px;
+		left: 17px;
+		width: 90%;
+		height: 45px;
+		font-size: 1.6em;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.9;
+		color: #fff;
+		font-family: ;
+		font-weight: bold;
+	}
+
+	#interactivesession .moreenquiries {
+		margin: 19px 0px 0px 15px;
+		line-height: 1.5em;
+		font-size: 1.5em;
+	}
+
+	/*popular destinations*/
+	#populardestination {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 40px;
+		height: 110px;
+	}
+
+	#populardestination h2 {
+		margin-bottom: 0.5em;
+		font-size: 3em;
+	}
+
+	#populardestination p {
+		line-height: 1.3em;
+		font-size: 1.6em;
+	}
+
+	#destinationimages {
+		margin: 40px 40px;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#destination1, #destination2, #destination3, #destination4, #destination5, #destination6 {
+		height: 250px;
+		margin-bottom: 60px;
+		width: 45%;
+	}
+
+	#destination1 img, #destination2 img, #destination3 img, #destination4 img, #destination5 img, #destination6 img {
+		width: 90%;
+		height: 100%;
+	}
+
+	#destination1 p, #destination2 p, #destination3 p, #destination4 p, #destination5 p, #destination6 p {
+		font-family: ;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+	/*book a tour from home session*/
+	.buytour {
+		background-image: url(image/california.jpg);
+		background-repeat: no-repeat;
+		background-color: rgba(1,1,1,0.6);
+		background-blend-mode: color-burn;
+		background-size: cover;
+		height: 500px;
+		width: 100%;
+	}
+
+	#buytourtext {
+		/*border: 2px solid black;*/
+		position: relative;
+		top: 10%;
+		width: 80%;
+		height: 80%;
+		margin: 0px auto;
+	}
+
+	#buytourtext h2 {
+		color: #fff;
+		text-transform: capitalize;
+		text-align: center;
+		position: relative;
+		top: 9%;
+		font-size: 2.5em;
+		font-weight: bold;
+	}
+
+	#buytourtext p {
+		position: relative;
+		top: 18%;
+		color: #fff;
+		margin: 0px 15px;
+		text-align: justify;
+		line-height: 1.3em;
+		word-spacing: 4px;
+		font-size: 2.0em;
+		opacity: 0.9;
+	}
+
+	#buytourtext #booknow {
+		position: relative;
+		left: 40%;
+		top: 100px;
+		width: 25%;
+		height: 65px;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.9;
+		color: #fff;
+		font-size: 1.4em;
+		font-family: ;
+		font-weight: bold;
+	}
+
+	/*explore*/
+	/*explore the world session*/
+	.explore {
+	/*	border: 1px  black solid;*/
+		width: 100%;
+		height: 470px;
+		padding: 50px 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.explore #div1, .explore #div2  {
+		/*border: 1px solid green;*/
+			width: 40%;
+			padding: 20px;
+		}
+
+	.explore img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.explore #div2 #exploretext {
+		position: relative;
+		top: 0px;
+		font-size: 1.6em;
+	}
+
+	.explore #div2 #exploretext h2 {
+		line-height: 1.2em;
+		text-transform: capitalize;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+
+	.explore #exploretext p {
+		position: relative;
+		word-spacing: 0.2em;
+		line-height: 1.0em;
+		font-size: 0.9em;
+		top: 20px;
+	}
+
+	.explore #exploretext p span {
+		font-size: 1.0em;
+	}
+
+	.explore #explorebuttons {
+		position: relative;
+		top: 10%;
+	}
+
+	.explore #explorebuttons a {
+		text-decoration: none;
+	}
+
+	.explore #explorebuttons #explorebutton1 {
+		height: 50px;
+		width: 45%;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.8;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton1 a {
+		color: #fff;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton2 {
+		height: 40px;
+		width: 35%;
+		background-color: #fff;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton2 a {
+		color: #000;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.2em;
+		margin: 25px;
+	}
+
+
+	/*readmore*/
+	#readmore {
+		/*border: 1px solid red;*/
+		width: 90%;
+		height: 470px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		background-color: #FAFAFA;
+		margin-bottom: 50px;
+		padding: 0px 5%;
+	}
+
+	#readmore .readmore1, #readmore .readmore2, #readmore .readmore3 {
+		/*border: 1px solid black;*/
+		width: 26%;
+		height: 100%;
+		margin-left: 50px; 
+	}
+
+	#readmore .readmore1 #div1, #readmore .readmore2 #div2, #readmore .readmore3 #div3 {
+		border: 1px solid black;
+		border-radius: 45%;
+		height: 13%;
+		width: 32%;
+		position: relative;
+		top: 10%;
+		left: 13%;
+	}
+
+	#readmore .readmore1 #div1 img, #readmore .readmore2 #div2 img, #readmore .readmore3 #div3 img {
+		margin: 25%;
+	}
+
+	#readmore #text1,#readmore #text2,#readmore #text3 {
+		position: relative;
+		top: 10%;
+		margin: 15px;
+		font-family: ;
+		height: 110px;
+		width: 90%;
+		font-size: 1.4em; 
+	}
+
+	#readmore #text1 h2,#readmore #text2 h2,#readmore #text3 h2 {
+		font-weight: bold;
+	}
+
+	#readmore #text3 h2 {
+		font-size: 1.3em;
+	}
+
+	#readmore #text1 p,#readmore #text2 p,#readmore #text3 p {
+		position: relative;
+		top: 10%;
+		line-height: 1.3em;
+		height: 50px;
+		font-size: 1.2em;
+	}
+
+	#readmore #text1 a,#readmore #text2 a,#readmore #text3 a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #ff0000;
+		position: absolute;
+		top: 265%;
+	}
+
+
+	/*airlines*/
+	#airlines {
+		margin-bottom: 100px;
+	}
+
+
+	/*tourgallery*/
+	.tourgallery {
+		width: 100%;
+		height: 1200px;
+		margin-bottom: 50px;
+	}
+
+	.tourgallery h3 {
+		/*border: 1px solid red;*/
+		text-align: center;
+		padding: 15px;
+		font-weight: bold;
+		font-size: 2.0em;
+	}
+
+	.tourgallery .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 100%;
+		position: relative;
+		top: 1%;
+		/*border: 1px solid green;*/
+	}
+
+	.tourgallery .wrapper #div1, .tourgallery .wrapper  #div2, .tourgallery .wrapper  #div3, .tourgallery .wrapper  #div4, .tourgallery .wrapper  #div5, .tourgallery .wrapper  #div6 {
+		/*border: 1px solid blue;*/
+		position: relative;
+		top: 5%;
+		width: 45%;
+		height: 360px;
+		margin-bottom: 20px;
+	}
+
+	/*team members*/
+	#team {
+		height: 1950px;
+		width: 99%;
+	}
+
+	#team p {
+		font-size: 2.5em;
+	}
+
+
+	#team div .client1, #team div .client2, #team div .client3 {
+		height: 610px;
+		margin-bottom: 40px;
+	}
+
+	#team div .client1 img, #team div .client2 img, #team div .client3 img {
+		height: 89%;
+	}
+
+	#team div .client1 #teamname, #team div .client2 #teamname, #team div .client3 #teamname {
+		position: absolute;
+		top: 87%;
+		font-size: 1.7em;
+		height: 6%;
+	}
+
+	#team div .client1 #position, #team div .client2 #position, #team div .client3 #position {
+		position: absolute;
+		top: 93%;
+		height: 6%;
+		padding-top: 5px;
+		font-size: 1.6em;
+	}
+
+
+	/*tour prices*/
+	.tourprices {
+		height: 600px;
+	}
+
+	.tourprices h3 {
+		font-size: 2.1em;
+	}
+
+	.prices #div1, .prices #div2, .prices #div3, .prices #div4 {
+		height: 260px;
+	}
+
+	.prices #div1 h5, .prices #div2 h5, .prices #div3 h5, .prices #div4 h5 {
+		font-size: 1.7em;
+	}
+
+	.prices #div1 div {
+		height: 210px;
+		margin: 0px 10%;
+	}
+
+	/*footer*/
+	#footer {
+		height: 350px;
+		background-color: #031427;
+		color: #ffffff;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 80%;
+		padding: 20px 10% 0px 0%;
+	}
+
+	#footer #div1 {
+		height: 190px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div2 {
+		height: 220px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div3 {
+		height: 150px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div4 {
+		display: none;
+	}
+
+	#footer #div5 {
+		display: none;
+	}
+
+	#footer #div6 {
+		height: 180px;
+		width: 10%;
+		padding: 25px 0px 0px 15px;
+		line-height: 1.7em;
+		font-size: 1.2em;
+	}
+
+	#footer #div1 ul, #footer #div2 ul, #footer #div3 ul, #footer #div4 ul, #footer #div5 ul, #footer #div6 ul{
+		list-style-type: none;
+	}
+
+	#footer #div1 a, #footer #div2 a, #footer #div3 a, #footer #div4 a, #footer #div5 a,  #footer #div6 a {
+		text-decoration: none;
+		color: #fff;
+		line-height: 1.7em;
+	}
+
+	#footer #div1 #boldlist, #footer #div2 #boldlist, #footer #div3 #boldlist, #footer #div4 #boldlist, #footer #div5 #boldlist {
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+	#footer #div6 #boldlist6 {
+		font-weight: bold;
+		margin-bottom: 15px;
+		font-size: 1.2em;
+	}
+
+	#footer #div6 p {
+		line-height: 1.2em;
+	}
+
+	#footer #div6 #copy {
+		margin-top: 10px;
+	}
+
+	#footer #div6 #copy b {
+		position: relative;
+		top: 15px;
+	}
+
+}
+
+
+
+/*===media query for laptop===*/
+@media only screen and (min-width: 1367px) {
+
+	body {
+		width: 100%;
+	}
+
+	.landingpage {
+		height: 95vh;
+		background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(image/citybyocean.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow-x: hidden;
+		position: relative;
+	}
+
+
+	/*the navigation bar and it's content*/
+	.navbar {
+	    width: 80%;
+		background-color: #141A30;
+		height: 60px;
+		margin: 30px 100px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	} 
+
+	.navlogo {
+		height: 100%;
+		line-height: 60px;
+		margin: -20px;
+	}
+
+	.navlogo img {
+		height: 110px;
+		width: 120px;
+	}
+
+	.navlinks {
+		flex: 1;
+	}
+
+	.navlinks ul {
+		display: inline;
+		position: relative;
+		left: 20px;
+	}
+
+	.navlinks ul #offers {
+		display: inline-block;
+	}
+
+	.navlinks ul li {
+		display: inline-block;
+		width: auto;
+		margin: 0px 40px;
+		font-family: 'Montserrat', sans-serif;
+	} 
+
+	.navlinks ul li a {
+		font-size: 2.2em;
+		word-spacing: 3px;
+	}
+
+	.navlinks ul li::after {
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: rgba(248, 90, 1, 0.9);
+		display: block; 
+		position: relative;
+		top: -10px;
+		transition: .5s;
+		margin: auto;
+	}	
+
+	.navlinks ul li:hover::after {
+		width: 100%;
+	}
+	.button:hover {
+		background-color: rgba(248, 90, 1, 0.9); 
+		color: #000;
+	}
+
+	.navlinks .button {
+		float: right;
+		margin: 10px;
+		height: 40px;
+		position: relative;
+		top: -2px;
+	} 
+
+	/*/*the contents on the background*/
+
+	#backgroundtext {
+		width: 80%;
+		position: relative;
+		top: 15%;
+		left: 15%;
+		right: 10%;
+	}
+
+	#backgroundtextcontent1 {
+		text-transform: uppercase;
+		color: #F48A56;
+		font-family: 'Galada', cursive;
+		font-size: 5em;
+		word-spacing: 6px; 
+		opacity: 0.8;
+		letter-spacing: 5px;
+	}
+
+	#backgroundtextcontent2 {
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		height: 100px;
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#backgroundtextcontent2 p {
+		font-family: 'Galada', cursive;
+		font-size: 3em;
+		color: #fff;
+		position: relative;
+		top: 15%;
+	}
+
+	#backgroundtextcontent3 {
+		margin-top: 30px;
+	}
+
+	#backgroundtextcontent3 p {
+		line-height: 40px;                          
+		color: #F48A56;
+		font-family: 'Galada', cursive;
+		font-size: 2em;
+		word-spacing: 3px; 
+		opacity: 0.7;
+	}
+
+	#learnmore {
+	position: relative;
+	top: 30px;
+	height: 60px;
+	width: 15%;
+	border: 1px solid #fff;
+	background-color: #fff;
+	opacity: 0.9;
+	font-size: 1.2em;
+	}
+
+	#learnmore a {
+		text-decoration: none;
+		color: #000;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.4em;
+	}
+
+	/*interactive session*/
+	#interactivesession {
+		margin: 0px 160px 40px 160px;
+		border: 1px solid #ccc;
+		height: 220px;
+		padding-bottom: 20px;
+	}
+
+	#bestholiday {
+		position: relative;
+		top: 30px;
+		width: 95%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#bestholiday p {
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1.2em;
+		word-spacing: 0.3em;
+		margin-bottom: 15px;
+	}
+
+	#bestholiday small {
+		font-size: 1.2em;
+	}
+
+
+	#bestholiday small span {
+		font-weight: bolder;
+	}
+
+
+	/*interactive session*/
+	#interactivesession  #form {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 30px;
+	}
+
+	#interactivesession  #form input {
+		margin: 15px 0px 0px 10px;
+		width: 18%;
+		height: 40px;
+		border: 1px solid #ccc;
+		font-size: 1.1em;
+	}
+
+	#interactivesession  #form #date {
+		margin: 15px 0px 0px 10px;
+		width: 18%;
+		height: 40px;
+		border: 1px solid #ccc;
+		background-color: #FAFAFA;
+		padding-left: 10px;
+		color: #757575;
+	}
+
+	#submitformbutton {
+		position: relative;
+		top: -45px;
+		float: right;
+		left: -30px;
+		width: 13%;
+		height: 45px;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.9;
+		color: #fff;
+		font-family: ;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+
+	#interactivesession .moreenquiries {
+		margin: 19px 0px 0px 15px;
+		font-size: 1.2em;
+		color: #aaa;
+	}
+
+	/*popular destinations*/
+	#populardestination {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 40px;
+		height: 110px;
+	}
+
+	#populardestination h2 {
+		margin-bottom: 0.5em;
+		font-size: 2em;
+	}
+
+	#populardestination p {
+		line-height: 1.3em;
+		font-size: 1.3em;
+	}
+
+	#destinationimages {
+		margin: 0px 40px;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#destination1, #destination2, #destination3, #destination4, #destination5, #destination6 {
+		height: 250px;
+		margin-bottom: 60px;
+		width: 30%;
+	}
+
+	#destination1 img, #destination2 img, #destination3 img, #destination4 img, #destination5 img, #destination6 img {
+		width: 90%;
+		height: 100%;
+	}
+
+	#destination1 p, #destination2 p, #destination3 p, #destination4 p, #destination5 p, #destination6 p {
+		font-family: ;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+
+	/*book a tour from home session*/
+	.buytour {
+		background-image: url(image/california.jpg);
+		background-repeat: no-repeat;
+		background-color: rgba(1,1,1,0.6);
+		background-blend-mode: color-burn;
+		background-size: cover;
+		height: 500px;
+		width: 100%;
+	}
+
+	#buytourtext {
+		/*border: 2px solid black;*/
+		position: relative;
+		top: 15%;
+		width: 80%;
+		height: 80%;
+		margin: 0px auto;
+	}
+
+	#buytourtext h2 {
+		color: #fff;
+		text-transform: capitalize;
+		text-align: center;
+		position: relative;
+		top: 9%;
+		font-size: 2.5em;
+		font-weight: bold;
+	}
+
+	#buytourtext p {
+		position: relative;
+		top: 18%;
+		color: #fff;
+		margin: 0px 15px;
+		text-align: justify;
+		line-height: 1.5em;
+		word-spacing: 4px;
+		font-size: 2.0em;
+		opacity: 0.9;
+	}
+
+	#buytourtext #booknow {
+		position: relative;
+		left: 40%;
+		top: 130px;
+		width: 22%;
+		height: 50px;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.9;
+		color: #fff;
+		font-size: 1.4em;
+		font-family: ;
+		font-weight: bold;
+	}
+
+	/*explore*/
+	/*explore the world session*/
+	.explore {
+		/*border: 1px  black solid;*/
+		width: 100%;
+		height: 500px;
+		padding: 50px 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.explore #div1, .explore #div2  {
+		/*border: 1px solid green;*/
+			width: 40%;
+			padding: 20px;
+		}
+
+	.explore img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.explore #div2 #exploretext {
+		position: relative;
+		top: 10px;
+		font-size: 1.6em;
+	}
+
+	.explore #div2 #exploretext h2 {
+		line-height: 1.3em;
+		text-transform: capitalize;
+		font-weight: bold;
+	}
+
+	.explore #exploretext p {
+		position: relative;
+		word-spacing: 0.2em;
+		line-height: 1.5em;
+		top: 20px;
+	}
+
+	.explore #exploretext p span {
+		font-size: 1.0em;
+	}
+
+	.explore #explorebuttons {
+		position: relative;
+		top: 20%;
+	}
+
+	.explore #explorebuttons a {
+		text-decoration: none;
+	}
+
+	.explore #explorebuttons #explorebutton1 {
+		height: 60px;
+		width: 40%;
+		border: 1px solid #ff0000;
+		background-color: #ff0000;
+		opacity: 0.8;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton1 a {
+		color: #fff;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton2 {
+		height: 40px;
+		width: 35%;
+		background-color: #fff;
+		font-size: 1.2em;
+	}
+
+	.explore #explorebuttons #explorebutton2 a {
+		color: #000;
+		font-weight: bold;
+		font-family: ;
+		font-size: 1.2em;
+		margin: 25px;
+	}
+
+
+	/*readmore*/
+	#readmore {
+		/*border: 1px solid red;*/
+		width: 80%;
+		height: 420px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		background-color: #FAFAFA;
+		margin-bottom: 50px;
+		padding: 0px 10%;
+	}
+
+	#readmore .readmore1, #readmore .readmore2, #readmore .readmore3 {
+		/*border: 1px solid black;*/
+		width: 26%;
+		height: 100%;
+		margin-left: 50px; 
+	}
+
+	#readmore .readmore1 #div1, #readmore .readmore2 #div2, #readmore .readmore3 #div3 {
+		border: 1px solid black;
+		border-radius: 45%;
+		height: 13%;
+		width: 20%;
+		position: relative;
+		top: 20%;
+		left: 13%;
+	}
+
+	#readmore .readmore1 #div1 img, #readmore .readmore2 #div2 img, #readmore .readmore3 #div3 img {
+		margin: 25%;
+	}
+
+	#readmore #text1,#readmore #text2,#readmore #text3 {
+		position: relative;
+		top: 20%;
+		margin: 15px;
+		font-family: ;
+		height: 110px;
+		width: 90%;
+		font-size: 1.3em; 
+	}
+
+	#readmore #text1 h2,#readmore #text2 h2,#readmore #text3 h2 {
+		font-weight: bold;
+	}
+
+	#readmore #text3 h2 {
+		font-size: 1.3em;
+	}
+
+	#readmore #text1 p,#readmore #text2 p,#readmore #text3 p {
+		position: relative;
+		top: 10%;
+		line-height: 1.3em;
+		height: 50px;
+	}
+
+	#readmore #text1 a,#readmore #text2 a,#readmore #text3 a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #ff0000;
+		position: absolute;
+		top: 130%;
+	}
+
+
+	/*airlines*/
+	#airlines {
+		margin-bottom: 100px;
+	}
+
+	/*tourgallery*/
+	.tourgallery {
+		width: 100%;
+		height: 850px;
+		margin-bottom: 50px;
+		/*border: 1px solid red;*/
+	}
+
+	.tourgallery h3 {
+		/*border: 1px solid red;*/
+		text-align: center;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 2.0em;
+	}
+
+	.tourgallery .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 100%;
+		position: relative;
+		top: 1%;
+		/*border: 1px solid green;*/
+	}
+
+	.tourgallery .wrapper #div1, .tourgallery .wrapper  #div2, .tourgallery .wrapper  #div3, .tourgallery .wrapper  #div4, .tourgallery .wrapper  #div5, .tourgallery .wrapper  #div6 {
+		/*border: 1px solid blue;*/
+		position: relative;
+		top: 5%;
+		width: 30%;
+		height: 360px;
+		margin-bottom: 20px;
+	}
+
+	.tourgallery #div1 img, .tourgallery #div2 img, .tourgallery #div3 img, .tourgallery #div4 img, .tourgallery #div5 img, .tourgallery #div6 img {
+		width: 100%;
+		height: 90%;
+	}
+
+	.tourgallery p {
+		height: 30px;
+		background-color: orange;
+		text-align: center;
+		letter-spacing: 4px;
+		margin-top: -4px;
+		padding-top: 10px;
+		font-weight: bold;
+	}
+
+
+	/*team members*/
+	#team {
+		height: 600px;
+		width: 99%;
+	}
+
+	#team p {
+		position: relative;
+		top: 1%;
+		font-size: 2em;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#team div {
+		width: 95%;
+		height: 93%;
+		margin: 0px auto;
+		position: relative;
+		top: 1%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	#team div .client1, #team div .client2, #team div .client3 {
+		height: 450px;
+		width: 30%;
+		margin-bottom: 15px;
+	}
+
+	#team div .client1 img, #team div .client2 img, #team div .client3 img {
+		height: 90%;
+		width: 100%;
+	}
+
+	#team div .client1 #teamname, #team div .client2 #teamname, #team div .client3 #teamname {
+		position: absolute;
+		top: 90%;
+	}
+
+	#team div .client1 #position, #team div .client2 #position, #team div .client3 #position {
+		position: absolute;
+		top: 97.3%;
+		font-weight: lighter;
+}
+
+
+	/*tour prices*/
+	.tourprices {
+		/*border: 1px solid blue;*/
+		width: 100%;
+		height: 285px;
+		margin-bottom: 30px;
+		font-size: 1.2em;
+		position: relative;
+		top: 20px;
+	}
+
+	.tourprices h3 {
+		/*border: 1px solid red;*/
+		position: relative;
+		text-align: center;
+		top: 2%;
+		padding: 5px;
+		font-size: 1.6em;
+	}
+
+	.tourprices .prices {
+		position: relative;
+		top: 15px;
+		height: 95%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+
+	.prices #div1, .prices #div2, .prices #div3, .prices #div4 {
+	/*border: 1px solid red;*/
+		width: 25%;
+		height: 200px;
+	}
+
+	.prices #div1 h5, .prices #div2 h5, .prices #div3 h5, .prices #div4 h5 {
+		margin: 9px;
+		letter-spacing: 3px;
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+
+	.prices #div1 div {
+		width: 80%;
+		height: 160px;
+		margin: 0px 10%;
+		background-image: url(image/china.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.prices #div2 div {
+		width: 80%;
+		height: 160px;
+		margin: 0px 10%;
+		background-image: url(image/iceland.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.prices #div3 div {
+		width: 80%;
+		height: 160px;
+		margin: 0px 10%;
+		background-image: url(image/francesco.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.prices #div4 div {
+		width: 80%;
+		height: 160px;
+		margin: 0px 10%;
+		background-image: url(image/gaurav.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.prices #div1 div p, .prices #div2 div p, .prices #div3 div p, .prices #div4 div p {
+		background-color: orange;
+		padding: 5px;
+		letter-spacing: 2px;
+		color: #fff;
+		width: 40%;
+		float: right;
+	}
+
+
+
+	/*footer*/
+	#footer {
+		height: 350px;
+		background-color: #031427;
+		color: #ffffff;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 80%;
+		padding: 50px 10% 0px 10%;
+	}
+
+	#footer #div1 {
+		height: 190px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div2 {
+		height: 220px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div3 {
+		height: 150px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div4 {
+		height: 210px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div4 input {
+		width: 80%;
+		height: 35px;
+		background-color: #fff;
+		border: 1px solid #fff;
+		font-weight: bold;
+		padding-left: 15px;
+		margin-bottom: 20px;
+	}
+
+	#footer #div5 {
+		height: 220px;
+		width: 15%;
+		padding: 25px 0px 0px 15px;
+		font-size: 1.3em;
+	}
+
+	#footer #div5 #adress {
+		font-size: 0.8em;
+	}
+
+	#footer #div5 #adress a {
+		line-height: 8px;
+		font-size: 1.1em;
+	}
+
+	#footer #div6 {
+		height: 180px;
+		width: 10%;
+		padding: 25px 0px 0px 15px;
+		line-height: 1.7em;
+		font-size: 1.2em;
+	}
+
+
+	#footer #div6 #boldlist6 {
+		font-weight: bold;
+		margin-bottom: 15px;
+		font-size: 1.4em;
+	}
+
+	#footer #div6 #copy span {
+		display: inline-block;
+		letter-spacing: 3px;
+	}
+
+
+	#footer #div1 ul, #footer #div2 ul, #footer #div3 ul, #footer #div4 ul, #footer #div5 ul, #footer #div6 ul{
+		list-style-type: none;
+	}
+
+	#footer #div1 a, #footer #div2 a, #footer #div3 a, #footer #div4 a, #footer #div5 a,  #footer #div6 a {
+		text-decoration: none;
+		color: #fff;
+		line-height: 1.7em;
+	}
+
+	#footer #div1 #boldlist, #footer #div2 #boldlist, #footer #div3 #boldlist, #footer #div4 #boldlist, #footer #div5 #boldlist {
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+}
